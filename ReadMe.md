@@ -9,4 +9,11 @@ Context : add `.gitignore` and `ReadMe.md` files | add `.idea/` on `.gitignore` 
   &nbsp;\
 Context : update documentation on `ReadMe.md` (visual and comprehension)
 - git add ReadMe.md
-- git ci -m "Update readMe.md for project init"
+- git ci -m "Update readMe.md for project init"\
+  &nbsp;\
+Context : Prepare first web pages and all necessary files (css, html)
+- git add .
+- git st
+- git rm --cached style.css
+- git st
+- git ci -m "add index.html"
