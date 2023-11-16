@@ -35,4 +35,11 @@ Context : Prepare first web pages and all necessary files (css, html)
   &nbsp;\
   Context : Ajoue du CSS à l'affiché caché .
 - git add .
-- git ci -m "Ajoue du css"
+- git ci -m "Ajoue du css"\
+  &nbsp;\
+  Context : fonctionnalité fini alors merge dans master et suppression de la branche actuelle.
+- git add .
+- git ci -m "update ReadMe.md"
+- git merge affichéCaché master
+- git co master
+- git branch -d
