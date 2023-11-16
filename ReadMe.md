@@ -1,5 +1,8 @@
 # Etapes à suivre :
-Voici la liste des commandes qui ont été faites :
+### Bon a savoir :
+Pour mon utilisation quotidienne, je tape mes commandes avec des alias, récupéré depuis le site de git (ici : https://git-scm.com/book/fr/v2/Les-bases-de-Git-Les-alias-Git)
+
+### Voici la liste des commandes qui ont été faites :
 
 - git init "ProjetVersGITHUB" \
   &nbsp;\
@@ -52,4 +55,8 @@ Context : Prepare first web pages and all necessary files (css, html)
   Context : edit `ReadMe.md`.
 - git add .
 - git ci -m "update last time readme.md"
-- git push
+- git push\
+  &nbsp;\
+  Context : le fichier `ReadMe.md` à été modifier depuis gitHub, mais nous le voulons en local.
+- git fetch
+- git pull
