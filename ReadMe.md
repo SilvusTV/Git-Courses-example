@@ -42,4 +42,14 @@ Context : Prepare first web pages and all necessary files (css, html)
 - git ci -m "update ReadMe.md"
 - git co master
 - git merge affichéCaché
-- git branch -d affichéCaché
+- git branch -d affichéCaché\
+  &nbsp;\
+  Context : Connect local Project on GitHub, create remote gitHub repository.
+- git remote add origin https://github.com/SilvusTV/Git-Courses-example.git
+- git remote -v
+- git push --set-upstream origin master\
+  &nbsp;\
+  Context : edit `ReadMe.md`.
+- git add .
+- git ci -m "update last time readme.md"
+- git push
