@@ -16,4 +16,14 @@ Context : Prepare first web pages and all necessary files (css, html)
 - git st
 - git rm --cached style.css
 - git st
-- git ci -m "add index.html"
+- git ci -m "add index.html"\
+  &nbsp;\
+  Context : ...
+- git add . 
+- git st
+- git ci -m "add style.css"\
+  &nbsp;\
+  Context : oublie de link le css à l'html.
+- git add .
+- git st
+- git ci --amend -m "add css link on html"
