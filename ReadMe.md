@@ -26,4 +26,9 @@ Context : Prepare first web pages and all necessary files (css, html)
   Context : oublie de link le css à l'html.
 - git add .
 - git st
-- git ci --amend -m "add css link on html"
+- git ci --amend -m "add css link on html"\
+  &nbsp;\
+  Context : Creation d'une nouvelle branche pour la tentative de création d'un affiché caché.
+- git co -b "affichéCaché"
+- git add .
+- git ci -m "HTML affiché caché"
