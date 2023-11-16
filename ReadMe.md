@@ -40,6 +40,6 @@ Context : Prepare first web pages and all necessary files (css, html)
   Context : fonctionnalité fini alors merge dans master et suppression de la branche actuelle.
 - git add .
 - git ci -m "update ReadMe.md"
-- git merge affichéCaché master
 - git co master
-- git branch -d
+- git merge affichéCaché
+- git branch -d affichéCaché
